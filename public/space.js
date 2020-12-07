@@ -1,11 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDYn52SoVR5X7Fz5-sYl6FzbJHnzrD0oro",
-    authDomain: "campanile-test.firebaseapp.com",
-    databaseURL: "https://campanile-test.firebaseio.com",
-    projectId: "campanile-test",
-    storageBucket: "campanile-test.appspot.com",
-    messagingSenderId: "1010494201064",
-    appId: "1:1010494201064:web:6107823cb64e67c41cfd5d"
+// removed for privacy
   };
 
   firebase.initializeApp(firebaseConfig);
