@@ -1,0 +1,900 @@
+#dropimage{
+    border: 10px solid rgb(255, 199, 44);
+    height: 40%;
+    width: 20%;
+    text-align: center;
+    padding: 40px;
+    margin-left: 30%;
+    margin-top: 20px;
+    /* background: linear-gradient(17deg, rgba(4, 30, 66, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(255, 199, 44, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(4, 30, 66, 0.8), rgba(0,0,255,0) 70.71%); */
+    background-image: url("towerdrop.jpg");
+}
+
+#dropsound{
+    border: 10px solid rgb(255, 199, 44);
+    height: 10%;
+    width: 40%;
+    text-align: center;
+    padding: 40px;
+    margin-left: 20%;
+    margin-top: 20px;
+    background: linear-gradient(17deg, rgba(4, 30, 66, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(255, 199, 44, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(4, 30, 66, 0.8), rgba(0,0,255,0) 70.71%);
+
+}
+
+#gallery{
+    display: flex;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    /* border: solid 10px rgb(4, 30, 66); */
+    background: linear-gradient(17deg, rgba(255, 199, 44, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(4, 30, 66, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(255, 199, 44, 0.8), rgba(0,0,255,0) 70.71%);
+
+}
+
+body{
+    text-align: center;
+    text-size-adjust: larger;
+    background: linear-gradient(0deg, rgba(4, 30, 66, 1) 3%, rgba(255, 199, 44, 1) 78%, rgba(4, 30, 66, 1) 66%);
+}
+
+.img-item{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.containerleft{
+  width: 1400px;
+  height: 90px;
+  position: left;
+  background-color: rgb(151, 150, 156);
+  background: linear-gradient(0deg, rgba(123, 136, 141, 1) 0%, rgba(232, 230, 225, 1) 17%, rgba(123, 136, 141, 1) 100%);
+}
+
+.tower{
+  width: 95px;
+  height: 400px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 170px;
+  margin-left: 210px;
+}
+
+.blackarch1{
+  width: 22px;
+  height: 75px;
+  background-color: rgb(59, 63, 61);
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 218px;
+}
+
+.blackarch2{
+  width: 22px;
+  height: 75px;
+  background-color: rgb(59, 63, 61);
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 245px;
+}
+
+.blackarch3{
+  width: 22px;
+  height: 75px;
+  background-color: rgb(59, 63, 61);
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 272px;
+}
+
+.circlearch1{
+  width: 22px;
+  height: 22px;
+  background-color: rgb(59, 63, 61);
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 218px;
+  border-radius: 50%;
+}
+
+.circlearch2{
+  width: 22px;
+  height: 22px;
+  background-color: rgb(59, 63, 61);
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 245px;
+  border-radius: 50%;
+}
+
+.circlearch3{
+  width: 22px;
+  height: 22px;
+  background-color: rgb(59, 63, 61);
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 272px;
+  border-radius: 50%;
+}
+
+.baseshadow{
+  width: 97px;
+  height: 3px;
+  background-color: rgb(43, 42, 46);
+  position: absolute;
+  margin-top: 167px;
+  margin-left: 209px;
+}
+
+.topbase1{
+  width: 95px;
+  height: 10px;
+  background-color: rgb(220, 201, 187);
+  position: absolute;
+  margin-top: 157px;
+  margin-left: 210px;
+}
+
+.topbase2{
+  width: 60px;
+  height: 14px;
+  background-color: rgb(254, 251, 244);
+  position: absolute;
+  margin-top: 143px;
+  margin-left: 227px;
+}
+
+.sidepoke1{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin-top: 97px;
+  margin-left: 210px;
+  border-bottom: 60px solid rgb(220, 201, 187);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.sidepoke2{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin-top: 97px;
+  margin-left: 285px;
+  border-bottom: 60px solid rgb(220, 201, 187);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.toppoke1{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin-top: 101px;
+  margin-left: 216px;
+  border-bottom: 18px solid rgb(174, 218, 247);
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.toppoke2{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin-top: 101px;
+  margin-left: 291px;
+  border-bottom: 18px solid rgb(174, 218, 247);
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.toppeak{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin-left: 237px;
+  margin-top: 63px;
+  border-bottom: 80px solid rgb(250, 253, 236);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.peakcircle{
+  width: 10px;
+  height: 8px;
+  background-color: rgb(250, 253, 236);
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 252px;
+  border-radius: 50%;
+}
+
+.longhand{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 50px solid rgb(100, 121, 112);
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  margin-left: 260px;
+  margin-top: 310px;
+  transform: rotate(170deg);
+}
+
+.shorthand{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 30px solid rgb(100, 121, 112);
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  margin-left: 250px;
+  margin-top: 310px;
+  transform: rotate(190deg);
+}
+
+.clockcircle{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(100, 121, 112);
+  margin-top: 303px;
+  margin-left: 251px;
+  border-radius: 50%;
+}
+
+.ledge{
+  width: 99px;
+  height: 2px;
+  background-color: rgb(43, 42, 46);
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 208px; 
+}
+
+.balcony{
+  width: 94px;
+  height: 3px;
+  background-color: rgb(220, 201, 187);
+  position: absolute;
+  margin-top: 263px;
+  margin-left: 211px;
+}
+
+.shaft1{
+  width: 3px;
+  height: 18px;
+  position: absolute;
+  background-color: rgb(59, 63, 61);
+  margin-top: 375px;
+  margin-left: 255px;
+}
+
+.shaft2{
+  width: 3px;
+  height: 20px;
+  position: absolute;
+  background-color: rgb(59, 63, 61);
+  margin-top: 446px;
+  margin-left: 255px;
+}
+
+.shaft3{
+  width: 3px;
+  height: 22px;
+  position: absolute;
+  background-color: rgb(59, 63, 61);
+  margin-top: 525px;
+  margin-left: 255px;
+}
+
+.fencepost1{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 220px;
+}
+
+.fencepost2{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 224px;
+}
+
+.fencepost3{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 228px;
+}
+
+.fencepost4{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 232px;
+}
+
+.fencepost5{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 236px;
+}
+
+.fencepost6{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 247px;
+}
+
+.fencepost7{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 251px;
+}
+
+.fencepost8{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 255px;
+}
+
+.fencepost9{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 259px;
+}
+
+.fencepost10{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 263px;
+}
+
+.fencepost11{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 274px;
+}
+
+.fencepost12{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 278px;
+}
+
+.fencepost13{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 282px;
+}
+
+.fencepost14{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 286px;
+}
+
+.fencepost15{
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(220, 201, 187);
+  margin-top: 266px;
+  margin-left: 290px;
+}
+
+.containerright{
+  width: 1000px;
+  height: 200px;
+  position: relative;
+  block-size: auto;
+  margin-right: 0%;
+  opacity: .8;
+  background-color: rgb(151, 150, 156);
+  background: linear-gradient(0deg, rgba(123, 136, 141, 1) 0%, rgba(232, 230, 225, 1) 17%, rgba(123, 136, 141, 1) 100%);
+}
+
+.lefttower{
+  width: 60px;
+  height: 248px;
+  position: absolute;
+  background-color: rgb(134, 129, 125);
+  margin-left: 540px;
+  margin-top: 71px;
+}
+
+.righttower{
+  width: 60px;
+  height: 248px;
+  position: absolute;
+  background-color: rgb(99, 98, 104);
+  margin-left: 600px;
+  margin-top: 71px;
+}
+
+.leftwindows{
+  width: 58px;
+  height: 72px;
+  position: absolute;
+  background-color: rgb(115, 115, 117);
+  margin-left: 192px;
+  margin-top: -1px;
+}
+
+.window1shadow{
+  width: 5px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  margin-left: 200px;
+  margin-top: 15px;
+}
+
+.window1arch{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  border: 4px solid rgb(24, 25, 30);
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.window1light{
+  width: 5px;
+  height: 42px;
+  position: absolute;
+  background-color: rgb(126, 112, 55);
+  margin-left: 203px;
+  margin-top: 13px;
+}
+
+.window2shadow{
+  width: 8px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  margin-left: 214px;
+  margin-top: 14px;
+}
+
+.window2arch{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  border: 4px solid rgb(24, 25, 30);
+  border-radius: 50%;
+  margin-left: 214px;
+  margin-top: 9px;
+}
+
+.window2light{
+  width: 5px;
+  height: 16px;
+  position: absolute;
+  background-color: rgb(126, 112, 55);
+  margin-left: 217px;
+  margin-top: 38px;
+}
+
+.window3shadow{
+  width: 8px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  margin-left: 228px;
+  margin-top: 13px;
+}
+
+.window3arch{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  border: 4px solid rgb(24, 25, 30);
+  border-radius: 50%;
+  margin-left: 228px;
+  margin-top: 8px;
+}
+
+.window3light{
+  width: 5px;
+  height: 8px;
+  position: absolute;
+  background-color: rgb(126, 112, 55);
+  margin-left: 231px;
+  margin-top: 40px;
+}
+
+.rightwindows{
+  width: 58px;
+  height: 72px;
+  position: absolute;
+  background-color: rgb(86, 89, 98);
+  margin-left: 250px;
+  margin-top: -1px;
+}
+
+.window4shadow{
+  width: 5px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  margin-left: 294px;
+  margin-top: 15px;
+}
+
+.window4arch{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  border: 4px solid rgb(24, 25, 30);
+  border-radius: 50%;
+  margin-left: 291px;
+  margin-top: 10px;
+}
+
+.window4light{
+  width: 5px;
+  height: 42px;
+  position: absolute;
+  background-color: rgb(126, 112, 55);
+  margin-left: 291px;
+  margin-top: 13px;
+}
+
+.window5shadow{
+  width: 8px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  margin-left: 276px;
+  margin-top: 14px;
+}
+
+.window5arch{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  border: 4px solid rgb(24, 25, 30);
+  border-radius: 50%;
+  margin-left: 276px;
+  margin-top: 9px;
+}
+
+.window5light{
+  width: 5px;
+  height: 16px;
+  position: absolute;
+  background-color: rgb(126, 112, 55);
+  margin-left: 276px;
+  margin-top: 38px;
+}
+
+.window6shadow{
+  width: 8px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  margin-left: 262px;
+  margin-top: 13px;
+}
+
+.window6arch{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: rgb(24, 25, 30);
+  border: 4px solid rgb(24, 25, 30);
+  border-radius: 50%;
+  margin-left: 262px;
+  margin-top: 8px;
+}
+
+.window6light{
+  width: 4px;
+  height: 8px;
+  position: absolute;
+  background-color: rgb(126, 112, 55);
+  margin-left: 262px;
+  margin-top: 40px;
+}
+
+.bottombase{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 4px solid rgb(93, 91, 92);
+  border-left: 62px solid transparent;
+  border-right: 62px solid transparent;
+  margin-left: 190px;
+  margin-top: 66px;
+}
+
+.topwrapleft{
+  width: 56px;
+  height: 20px;
+  position: absolute;
+  background-color: rgb(103, 94, 87);
+  margin-left: 194px;
+  margin-top: -20px;
+}
+
+.topwrapright{
+  width: 56px;
+  height: 20px;
+  position: absolute;
+  background-color: rgb(75, 74, 79);
+  margin-left: 250px;
+  margin-top: -20px;
+}
+
+.topbase{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 4px solid rgb(80, 76, 75);
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  margin-left: 190px;
+  margin-top: -4px;
+}
+
+.lefttriangle{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin-top: -65px;
+  margin-left: 194px;
+  border-bottom: 45px solid rgb(55, 54, 50);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.graywallleft{
+  width: 40px;
+  height: 22px;
+  position: absolute;
+  background-color: rgb(135, 139, 148);
+  margin-left: 210px;
+  margin-top: -42px;
+}
+
+.doorwallleftshadow{
+  width: 10px;
+  height: 12px;
+  position: absolute;
+  background-color: rgb(70, 68, 69);
+  margin-left: 224px;
+  margin-top: -32px;
+}
+
+.doorwallleft{
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  background-color: rgb(16, 14, 15);
+  margin-left: 224px;
+  margin-top: -30px;
+}
+
+.graywallright{
+  width: 40px;
+  height: 22px;
+  position: absolute;
+  background-color: rgb(92, 99, 115);
+  margin-left: 250px;
+  margin-top: -42px;
+}
+
+.doorwallrightshadow{
+  width: 10px;
+  height: 12px;
+  position: absolute;
+  background-color: rgb(51, 55, 64);
+  margin-left: 265px;
+  margin-top: -32px;
+}
+
+.doorwallright{
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  background-color: rgb(8, 12, 21);
+  margin-left: 265px;
+  margin-top: -30px;
+}
+
+.leftspire{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 90px solid rgb(135, 139, 142);
+  border-left: 35px solid transparent;
+  margin-left: 214px;
+  margin-top: -132px;
+}
+
+.rightspire{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 90px solid rgb(75, 92, 102);
+  border-right: 37px solid transparent;
+  margin-left: 249px;
+  margin-top: -132px;
+}
+
+.darkbandleft{
+  width: 6px;
+  height: 3px;
+  position: absolute;
+  background-color: rgb(66, 79, 87);
+  margin-left: 244px;
+  margin-top: -125px;
+}
+
+.darkbandright{
+  width: 5px;
+  height: 3px;
+  position: absolute;
+  background-color: rgb(22, 41, 48);
+  margin-left: 249px;
+  margin-top: -125px;
+}
+
+.spirebase{
+  width: 10px;
+  height: 3px;
+  position: absolute;
+  background-color: rgb(0, 9, 8);
+  margin-left: 244px;
+  margin-top: -127px;
+}
+
+.lantern{
+  width: 8px;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(76, 78, 75);
+  background: linear-gradient(270deg, rgba(123, 136, 141, 1) 0%, rgba(232, 230, 225, 1) 17%, rgba(123, 136, 141, 1) 100%);
+  margin-left: 245px;
+  margin-top: -137px;
+}
+
+.lanterntop{
+  width: 6px;
+  height: 0px;
+  position: absolute;
+  border: 3px solid rgb(31, 35, 34);
+  border-radius: 50%;
+  margin-left: 243px;
+  margin-top: -143px;
+}
+
+.spire{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 20px solid rgb(31, 35, 34);
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  margin-left: 247px;
+  margin-top: -163px;
+}
+
+.spirecircle{
+  width: 4px;
+  height: 0px;
+  position: absolute;
+  border: 1px solid rgb(31, 35, 34);
+  border-radius: 50%;
+  margin-left: 246px;
+  margin-top: -150px;
+}
+
+.wallroof{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 4px solid rgb(115, 118, 123);
+  border-left: 42px solid transparent;
+  border-right: 42px solid transparent;
+  margin-left: 208px;
+  margin-top: -46px;
+}
+
+.middletriangle{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 45px solid rgb(72, 72, 74);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-left: 245px;
+  margin-top: -69px;
+}
+
+.righttriangle{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin-top: -65px;
+  margin-left: 296px;
+  border-bottom: 45px solid rgb(42, 45, 54);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.trianglebase{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-bottom: 4px solid rgb(78, 76, 77);
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  margin-left: 190px;
+  margin-top: -24px;
+}
+
+.rocket{
+  font-size: xx-large;
+  margin-left: 350px;
+  color: yellowgreen;
+}
